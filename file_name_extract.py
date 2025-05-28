@@ -3,7 +3,6 @@ import os
 #TODO: change the following file path name
 path = "/Users/lxl/Desktop/Summer Research/NeuroT-Map-main/lesions"
 files = os.listdir(path)
-resultant_files = []
 
 for f in files:
     length = len(f)
